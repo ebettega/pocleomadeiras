@@ -1,7 +1,7 @@
 {
   "vendor": "pocleomadeiras",
   "name": "b2bstore",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "defaultLocale": "en-US",
   "builders": {
     "assets": "0.x",
