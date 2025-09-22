@@ -2,14 +2,14 @@
   /**
    * Ads shelf
    */
-  "vtex-ads-shelf#pdp-footer": {
-    "title": "VTEX Ads - Product shelf",
-    "blocks": ["list-context.product-list-static#vtex-ads"],
-    "props": {
-      "placementName": "site_pdp_footer_product",
-      "quantity": 10
-    }
-  },
+  // "vtex-ads-shelf#pdp-footer": {
+  //   "title": "VTEX Ads - Product shelf",
+  //   "blocks": ["list-context.product-list-static#vtex-ads"],
+  //   "props": {
+  //     "placementName": "site_pdp_footer_product",
+  //     "quantity": 10
+  //   }
+  // },
 
   /**
    * Responsive layout
@@ -17,7 +17,7 @@
 
   // Desktop
   "flex-layout.col#vtex-ads-pdp-products-footer.desktop": {
-    "children": ["vtex-ads-shelf#pdp-footer"],
+    // "children": ["vtex-ads-shelf#pdp-footer"],
     "props": {
       "blockClass": ["new-home-shelf"],
       "preventVerticalStretch": true,
@@ -40,7 +40,7 @@
 
   // Mobile
   "flex-layout.col#vtex-ads-pdp-products-footer.mobile": {
-    "children": ["vtex-ads-shelf#pdp-footer"],
+    // "children": ["vtex-ads-shelf#pdp-footer"],
     "props": {
       "blockClass": ["new-home-shelf"],
       "preventVerticalStretch": true,

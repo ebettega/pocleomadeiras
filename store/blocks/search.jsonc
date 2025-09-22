@@ -1,7 +1,7 @@
 {
   "store.search.product-comparison": {
     "blocks": [
-      "pamplonase.vtex-ads:vtex-ads-banner#search-hero",
+      // "vtex-ads-banner#search-hero",
       "search-result-layout",
       "flex-layout.row#newsletter"
     ],
@@ -15,7 +15,7 @@
   },
   "store.search.product-comparison#brand": {
     "blocks": [
-      "pamplonase.vtex-ads:vtex-ads-banner#search-hero",
+      // "vtex-ads-banner#search-hero",
       "search-result-layout",
       "flex-layout.row#newsletter"
     ],
@@ -32,7 +32,7 @@
   },
   "store.search.product-comparison#department": {
     "blocks": [
-      "pamplonase.vtex-ads:vtex-ads-banner#search-hero",
+      // "vtex-ads-banner#search-hero",
       "search-result-layout",
       "flex-layout.row#newsletter"
     ],
@@ -48,7 +48,7 @@
   },
   "store.search.product-comparison#category": {
     "blocks": [
-      "pamplonase.vtex-ads:vtex-ads-banner#search-hero",
+      // "vtex-ads-banner#search-hero",
       "search-result-layout",
       "flex-layout.row#newsletter"
     ],
@@ -64,7 +64,7 @@
   },
   "store.search.product-comparison#subcategory": {
     "blocks": [
-      "pamplonase.vtex-ads:vtex-ads-banner#search-hero",
+      // "vtex-ads-banner#search-hero",
       "search-result-layout",
       "flex-layout.row#newsletter"
     ],

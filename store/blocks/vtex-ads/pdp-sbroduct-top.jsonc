@@ -2,14 +2,14 @@
   /**
    * Ads shelf
    */
-  "vtex-ads-sponsored-brands#search-top": {
-    "title": "VTEX Ads - Sponsored brand",
-    "blocks": ["list-context.product-list-static#vtex-ads-mini"],
-    "props": {
-      "placementName": "site_search_top_sb",
-      "quantity": 3
-    }
-  },
+  // "vtex-ads-sponsored-brands#search-top": {
+  //   "title": "VTEX Ads - Sponsored brand",
+  //   "blocks": ["list-context.product-list-static#vtex-ads-mini"],
+  //   "props": {
+  //     "placementName": "site_search_top_sb",
+  //     "quantity": 3
+  //   }
+  // },
 
   /**
    * Responsive layout
@@ -17,7 +17,7 @@
 
   // Desktop
   "flex-layout.col#vtex-ads-search-top-sb.desktop": {
-    "children": ["vtex-ads-sponsored-brands#search-top"],
+    // "children": ["vtex-ads-sponsored-brands#search-top"],
     "props": {
       "blockClass": ["new-home-shelf"],
       "preventVerticalStretch": true,
@@ -40,7 +40,7 @@
 
   // Mobile
   "flex-layout.col#vtex-ads-search-top-sb.mobile": {
-    "children": ["vtex-ads-sponsored-brands#search-top"],
+    // "children": ["vtex-ads-sponsored-brands#search-top"],
     "props": {
       "blockClass": ["new-home-shelf"],
       "preventVerticalStretch": true,

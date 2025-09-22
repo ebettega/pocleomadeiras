@@ -36,42 +36,42 @@
     ]
   },
 
-  "product-summary.shelf#product-card-custom-ads": {
-    "children": [
-      "vtex-ads-pixel-event",
-      "flex-layout.row#stackSavings",
-      "product-summary-name",
-      "product-summary-space",
-      "flex-layout.row#shelf-specifications",
-      "product-summary-space",
-      "check-permission#product-summary-price-list",
-      // "check-permission#progressive-discount-table",
-      "add-to-list-btn",
-      // "modal-trigger#quickview",
-      "rich-text#vtex-ads-sponsored-tag"
-    ],
-    "props": {
-      "blockClass": ["product-card-custom"]
-    }
-  },
-  "product-summary.shelf#product-card-custom-ads-mini": {
-    "children": [
-      "vtex-ads-pixel-event",
-      "flex-layout.row#stackSavings",
-      "product-summary-name",
-      "product-summary-space",
-      "flex-layout.row#shelf-specifications",
-      "product-summary-space",
-      // "check-permission#product-summary-price-list",
-      // "check-permission#progressive-discount-table",
-      // "add-to-list-btn",
-      // "modal-trigger#quickview",
-      "rich-text#vtex-ads-sponsored-tag"
-    ],
-    "props": {
-      "blockClass": ["product-card-custom"]
-    }
-  },
+  // "product-summary.shelf#product-card-custom-ads": {
+  //   "children": [
+  //     "vtex-ads-pixel-event",
+  //     "flex-layout.row#stackSavings",
+  //     "product-summary-name",
+  //     "product-summary-space",
+  //     "flex-layout.row#shelf-specifications",
+  //     "product-summary-space",
+  //     "check-permission#product-summary-price-list",
+  //     // "check-permission#progressive-discount-table",
+  //     "add-to-list-btn",
+  //     // "modal-trigger#quickview",
+  //     "rich-text#vtex-ads-sponsored-tag"
+  //   ],
+  //   "props": {
+  //     "blockClass": ["product-card-custom"]
+  //   }
+  // },
+  // "product-summary.shelf#product-card-custom-ads-mini": {
+  //   "children": [
+  //     "vtex-ads-pixel-event",
+  //     "flex-layout.row#stackSavings",
+  //     "product-summary-name",
+  //     "product-summary-space",
+  //     "flex-layout.row#shelf-specifications",
+  //     "product-summary-space",
+  //     // "check-permission#product-summary-price-list",
+  //     // "check-permission#progressive-discount-table",
+  //     // "add-to-list-btn",
+  //     // "modal-trigger#quickview",
+  //     "rich-text#vtex-ads-sponsored-tag"
+  //   ],
+  //   "props": {
+  //     "blockClass": ["product-card-custom"]
+  //   }
+  // },
 
   "flex-layout.row#shelf-specifications": {
     "children": ["product-specification-group#shelf"],

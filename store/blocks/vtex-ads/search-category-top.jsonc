@@ -2,26 +2,26 @@
   /**
    * Ads banner
    */
-  "pamplonase.vtex-ads:vtex-ads-banner#search-hero": {
-    "title": "VTEX Ads - Product banner",
-    "props": {
-      "placementName": "site_search_top_banner",
-      "size": "super_leaderboard",
-      "sizeMobile": "smartphone_banner"
-    }
-  },
+  // "vtex-ads-banner#search-hero": {
+  //   "title": "VTEX Ads - Product banner",
+  //   "props": {
+  //     "placementName": "site_search_top_banner",
+  //     "size": "super_leaderboard",
+  //     "sizeMobile": "smartphone_banner"
+  //   }
+  // },
 
-  "pamplonase.vtex-ads:vtex-ads-banner#search-top": {
-    "title": "VTEX Ads - Product banner",
-    "props": {
-      "placementName": "site_search_top_banner",
-      "size": "leaderboard",
-      "sizeMobile": "smartphone_banner"
-    }
-  },
+  // "vtex-ads-banner#search-top": {
+  //   "title": "VTEX Ads - Product banner",
+  //   "props": {
+  //     "placementName": "site_search_top_banner",
+  //     "size": "leaderboard",
+  //     "sizeMobile": "smartphone_banner"
+  //   }
+  // },
 
   "flex-layout.col#vtex-ads-search-top-banner": {
-    "children": ["pamplonase.vtex-ads:vtex-ads-banner#search-top"],
+    // "children": ["vtex-ads-banner#search-top"],
     "props": {
       "blockClass": ["background"],
       "paddingLeft": 7,
@@ -30,7 +30,7 @@
   },
 
   "flex-layout.col#vtex-ads-search-top-banner.mobile": {
-    "children": ["pamplonase.vtex-ads:vtex-ads-banner#search-top"],
+    // "children": ["vtex-ads-banner#search-top"],
     "props": {
       "blockClass": ["background"],
       "paddingLeft": 0,

@@ -2,20 +2,20 @@
   /**
    * Ads banner
    */
-  "pamplonase.vtex-ads:vtex-ads-banner#pdp-top": {
-    "title": "VTEX Ads - Product banner",
-    "props": {
-      "placementName": "pdp-top_banner",
-      "size": "super_leaderboard",
-      "sizeMobile": "smartphone_banner"
-    }
-  },
+  // "vtex-ads-banner#pdp-top": {
+  //   "title": "VTEX Ads - Product banner",
+  //   "props": {
+  //     "placementName": "pdp-top_banner",
+  //     "size": "super_leaderboard",
+  //     "sizeMobile": "smartphone_banner"
+  //   }
+  // },
 
   /**
    * Responsive layout
    */
   "flex-layout.row#vtex-ads-pdp-top-banner.desktop": {
-    "children": ["pamplonase.vtex-ads:vtex-ads-banner#pdp-top"],
+    // "children": ["vtex-ads-banner#pdp-top"],
     "props": {
       "paddingBottom": 4
     }
@@ -26,7 +26,7 @@
   },
 
   "flex-layout.row#vtex-ads-pdp-top-banner.mobile": {
-    "children": ["pamplonase.vtex-ads:vtex-ads-banner#pdp-top"],
+    // "children": ["vtex-ads-banner#pdp-top"],
     "props": {
       "blockClass": "vtexads-banner-top-container",
       "paddingBottom": 3
