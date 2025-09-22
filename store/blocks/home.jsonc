@@ -1,0 +1,351 @@
+{
+  "store.home": {
+    "children": ["b2b-context#desktop", "pa-widget"]
+  },
+  "b2b-context#desktop": {
+    "children": [
+      "check-permission#representative-area",
+      "flex-layout.row#sales-channel-banner",
+      "check-permission#lastOrders",
+      "flex-layout.row#trending",
+      "flex-layout.row#full-banner-desktop1",
+      "flex-layout.row#popular",
+      "__fold__",
+      "flex-layout.row#bannerCoupon",
+      "flex-layout.row#imageBanners",
+      "__fold__",
+      "flex-layout.row#newsletter"
+    ]
+  },
+  "flex-layout.row#sales-channel-banner": {
+    "title": "Sales Channel Banners",
+    "props": {
+      "blockClass": "full-banner",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#sales-channel-banner"]
+  },
+  "flex-layout.col#sales-channel-banner": {
+    "children": ["sales-channel-banner"]
+  },
+  "sales-channel-banner": {
+    "title": "Sales Channel Banners - Images",
+    "children": ["slider-layout#sales-channel-banner"],
+    "props": {
+      "height": 480,
+      "autoplay": 8000,
+      "images": [
+        {
+          "image": "https://images.cws.digital/campanhas/6490-oferta-da-semana-leo-madeiras/1929c8f8-c0a4-42c2-9695-a1e42f59f972-duratex.png",
+          "mobileImage": "https://images.cws.digital/campanhas/6490-oferta-da-semana-leo-madeiras/1929c8f8-c0a4-42c2-9695-a1e42f59f972-duratex.png",
+          "title": "Madeiras Nobres",
+          "description": "Hammer Drill Precision Pro",
+          "link": {
+            "url": "/hammer-drill/p"
+          }
+        },
+        {
+          "image": "https://images.cws.digital/campanhas/6028-fixo/fef682da-14dd-41d4-a17d-81dfb6dc6787-cooperado.png",
+          "mobileImage": "https://images.cws.digital/campanhas/6028-fixo/fef682da-14dd-41d4-a17d-81dfb6dc6787-cooperado.png",
+          "title": "Jigsaw Saw",
+          "description": "Jigsaw Saw",
+          "link": {
+            "url": "/precision-pro-fspe-100-jigsaw/p"
+          }
+        },
+        {
+          "image": "https://images.cws.digital/campanhas/6028-fixo/a2b69230-f6ce-4ca7-8cd9-bad9aeb55b1f-inscricao-copa.png",
+          "mobileImage": "https://images.cws.digital/campanhas/6028-fixo/a2b69230-f6ce-4ca7-8cd9-bad9aeb55b1f-inscricao-copa.png",
+          "title": "Viagem",
+          "description": "Viagem",
+          "link": {
+            "url": "/precision-pro-impact-drill/p"
+          }
+        },
+        {
+          "image": "https://images.cws.digital/campanhas/6554-oferta-relampago/94e01388-7689-4b4f-a87f-c28cb9cfe99e-oferta-relampago.png",
+          "mobileImage": "https://images.cws.digital/campanhas/6554-oferta-relampago/94e01388-7689-4b4f-a87f-c28cb9cfe99e-oferta-relampago.png",
+          "title": "Cordless Saw",
+          "description": "Cordless Saw",
+          "link": {
+            "url": "/-cordless-reciprocating-saw-precision-pro/p"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#sales-channel-banner": {
+    "title": "Sales Channel Banners - Slider",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always"
+    }
+  },
+  /* Seus Últimos Pedidos */
+  "flex-layout.row#last-orders": {
+    "props": {
+      "blockClass": "last-orders"
+    },
+    "children": ["flex-layout.col#last-orders"]
+  },
+  "flex-layout.col#last-orders": {
+    "props": {
+      "blockClass": "shopByCategory"
+    },
+    "children": [
+      "rich-text#last-orders-title",
+      "responsive-layout.desktop#b2b-last-orders",
+      "responsive-layout.mobile#b2b-last-orders"
+    ]
+  },
+  "rich-text#last-orders-title": {
+    "props": {
+      "text": "### Últimos Pedidos [VEJA MAIS](/account#/orders-history)",
+      "textPosition": "CENTER",
+      "blockClass": "shopByCategoryTitle"
+    }
+  },
+  "responsive-layout.desktop#b2b-last-orders": {
+    "children": ["flex-layout.row#last-orders-cards-desktop"]
+  },
+  "responsive-layout.mobile#b2b-last-orders": {
+    "children": ["flex-layout.row#last-orders-cards-mobile"]
+  },
+  "flex-layout.row#last-orders-cards-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["b2b-last-orders#desktop"]
+  },
+  "flex-layout.row#last-orders-cards-mobile": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": ["b2b-last-orders#mobile"]
+  },
+  "b2b-last-orders#desktop": {
+    "title": "B2B Last Ordes - Desktop",
+    "props": {
+      "limit": 5,
+      "orderDetailsPlacement": "right"
+    }
+  },
+  "b2b-last-orders#mobile": {
+    "title": "B2B Last Ordes - Mobile",
+    "props": {
+      "limit": 3,
+      "orderDetailsPlacement": "top"
+    }
+  },
+  "flex-layout.row#representative-area": {
+    "props": {
+      "blockClass": "representative-area"
+    },
+    "children": ["flex-layout.col#representative-area"]
+  },
+  "flex-layout.col#representative-area": {
+    "props": {
+      "blockClass": "representative-area"
+    },
+    "children": ["b2b-representative-area"]
+  },
+  "b2b-representative-area": {
+    "props": {
+      "individualGoal": 0,
+      "reachedValue": 0,
+      "customersPortfolio": 0,
+      "customersOrdersMonth": 0
+    }
+  },
+  /* New categories section */
+  "link#category-1": {
+    "children": ["image#category-1"],
+    "props": {
+      "label": "Ferragens",
+      "href": "/tools/drills",
+      "blockClass": "link-category"
+    }
+  },
+  "image#category-1": {
+    "props": {
+      "src": "https://images.cws.digital/categorias/8553/icon/ferragens_1749040790510.png"
+    }
+  },
+  "link#category-2": {
+    "children": ["image#category-2"],
+    "props": {
+      "label": "Ferramentas Elétricas",
+      "href": "/tools/hand-tools",
+      "blockClass": "link-category"
+    }
+  },
+  "image#category-2": {
+    "props": {
+      "src": "https://images.cws.digital/categorias/8553/icon/ferramentas-eletricas_1748957203629.png"
+    }
+  },
+  "link#category-3": {
+    "children": ["image#category-3"],
+    "props": {
+      "label": "Madeiras",
+      "href": "/Kits?_q=kits&map=ft",
+      "blockClass": "link-category"
+    }
+  },
+  "image#category-3": {
+    "props": {
+      "src": "https://images.cws.digital/categorias/8553/icon/madeiras_1749040703940.png"
+    }
+  },
+  "link#category-4": {
+    "children": ["image#category-4"],
+    "props": {
+      "label": "Máquinas Estacionárias",
+      "href": "/Sanders%20and%20Grinders?_q=sanders%20and%20grinders&map=ft",
+      "blockClass": "link-category"
+    }
+  },
+  "image#category-4": {
+    "props": {
+      "src": "https://images.cws.digital/categorias/8553/icon/maquinas-estacionarias_1749472757553.png"
+    }
+  },
+  "link#category-5": {
+    "children": ["image#category-5"],
+    "props": {
+      "label": "MDF",
+      "href": "/tools/saws",
+      "blockClass": "link-category"
+    }
+  },
+  "image#category-5": {
+    "props": {
+      "src": "https://images.cws.digital/categorias/8553/icon/mdf_1749040736341.png"
+    }
+  },
+  "link#category-6": {
+    "children": ["image#category-6"],
+    "props": {
+      "label": "Measuring Tools",
+      "href": "/Measuring%20Tools?_q=measuring%20tools&map=ft",
+      "blockClass": "link-category"
+    }
+  },
+  "image#category-6": {
+    "props": {
+      "src": "https://vtextitantools.vtexassets.com/assets/vtex.file-manager-graphql/images/3058a12e-739f-47a2-b24a-a82f0c7015c9___ffb6802bf62a6bbe8a4748828796d714.png"
+    }
+  },
+  "flex-layout.row#full-banner-desktop1": {
+    "children": ["image#full-banner-desktop1"],
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "fullWidth": true,
+      "horizontalAlign": "center"
+    },
+    "title": "Full Banner 1"
+  },
+  "image#full-banner-desktop1": {
+    "props": {
+      "src": "https://images.cws.digital/campanhas/6028-fixo/edb3e207-f7dd-49cf-9f0b-b8956e86c054-unidade-de-negocio.png",
+      "alt": "Tool Kits",
+      "title": "Tool Kits",
+      "link": {
+        "url": "/kits"
+      }
+    },
+    "title": "Full Banner 1 - Imagem"
+  },
+  "flex-layout.row#imageBanners": {
+    "title": "3 Columns Image Banners",
+    "props": {
+      "blockClass": "imageBanners",
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#banner1",
+      "flex-layout.col#banner2",
+      "flex-layout.col#banner3"
+    ]
+  },
+  "flex-layout.col#banner1": {
+    "props": {
+      "preventVerticalStretch": true
+    },
+    "children": ["image#banner-1"]
+  },
+  "flex-layout.col#banner2": {
+    "props": {
+      "preventVerticalStretch": true
+    },
+    "children": ["image#banner-2"]
+  },
+  "flex-layout.col#banner3": {
+    "props": {
+      "preventVerticalStretch": true
+    },
+    "children": ["image#banner-3"]
+  },
+  "image#banner-1": {
+    "props": {
+      "src": "https://images.cws.digital/campanhas/6439-mosaico-1-2025/5738f285-c70d-410c-9ffb-faa2b3e09ab1-mosaico-1-bosch.png",
+      "maxHeight": 256,
+      "blockClass": "bannerThird",
+      "link": {
+        "url": "#"
+      }
+    }
+  },
+  "image#banner-2": {
+    "props": {
+      "src": "https://images.cws.digital/campanhas/6441-mosaico-3-2025/a300fb0d-72cd-4672-822c-a92f77620560-mosaico-3-pertech.png",
+      "maxHeight": 256,
+      "blockClass": "bannerThird",
+      "link": {
+        "url": "#"
+      }
+    }
+  },
+  "image#banner-3": {
+    "props": {
+      "src": "https://images.cws.digital/campanhas/6440-mosaico-2-2025/01fcefc8-bc8e-4c9f-89b8-42f2b4a9becf-mosaico-2-bosch.png",
+      "maxHeight": 256,
+      "blockClass": "bannerThird",
+      "link": {
+        "url": "#"
+      }
+    }
+  },
+  "flex-layout.row#bannerCoupon": {
+    "title": "Full Banner 2",
+    "props": {
+      "blockClass": "full-banner",
+      "paddingTop": 8,
+      "fullWidth": true
+    },
+    "children": ["image#full-banner-desktop2"]
+  },
+  "image#full-banner-desktop2": {
+    "props": {
+      "src": "https://images.cws.digital/campanhas/6490-oferta-da-semana-leo-madeiras/532d1646-9334-4e5a-a1cc-e208f9a6a7c2-oferta-da-semana-1.png",
+      "alt": "10% OFF",
+      "title": "10% OFF",
+      "link": {
+        "url": "#"
+      }
+    },
+    "title": "Full Banner 2 - Imagem"
+  }
+}

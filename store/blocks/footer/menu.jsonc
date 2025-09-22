@@ -1,0 +1,209 @@
+{
+  "vtex.menu@2.x:menu#policy": {
+    "props": {
+      "blockClass": "flexCol",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/terms",
+            "noFollow": false,
+            "tagTitle": "Termos de Uso",
+            "text": "Termos de Uso"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/privacy-policy",
+            "noFollow": false,
+            "tagTitle": "Política de Privacidade",
+            "text": "Política de Privacidade"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cookies-policy",
+            "noFollow": false,
+            "tagTitle": "Política de Cookies",
+            "text": "Política de Cookies"
+          }
+        }
+      ]
+    }
+  },
+
+  "vtex.menu@2.x:menu#institutional": {
+    "props": {
+      "blockClass": "flexCol",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/who-we-are",
+            "noFollow": false,
+            "tagTitle": "Quem Somos",
+            "text": "Quem Somos"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/stores",
+            "noFollow": false,
+            "tagTitle": "Nossas Lojas",
+            "text": "Nossas Lojas"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/papers",
+            "noFollow": false,
+            "tagTitle": "Catálogos",
+            "text": "Catálogos"
+          }
+        }
+      ]
+    }
+  },
+
+  "vtex.menu@2.x:menu#help": {
+    "props": {
+      "blockClass": "flexCol",
+      "items": [
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "text": "SAC: (21) 3174-5400"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "external",
+            "href": "mailto:titantools.b2b@vtex.com.br",
+            "noFollow": false,
+            "tagTitle": "titantools.b2b@vtex.com.br",
+            "text": "sac@leomadeiras.com.br"
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "text": "Segunda a sexta-feira das 08:00 às 22:00."
+          }
+        },
+        {
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "text": "Sábados das 08:00 às 20:00."
+          }
+        }
+      ]
+    }
+  },
+
+  "vtex.menu@2.x:menu#costumer": {
+    "props": {
+      "blockClass": "flexCol",
+      "items": [
+        {
+          "id": "footerItem-help",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/help-center",
+            "noFollow": false,
+            "tagTitle": "Central de Ajuda",
+            "text": "Central de Ajuda"
+          }
+        },
+        {
+          "id": "footerItem-returns",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/returns",
+            "noFollow": false,
+            "tagTitle": "Devoluções",
+            "text": "Devoluções"
+          }
+        },
+        {
+          "id": "footerItem-recall",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/recalls",
+            "noFollow": false,
+            "tagTitle": "Recall de Produtos",
+            "text": "Recall de Produtos"
+          }
+        },
+        {
+          "id": "footerItem-accessibility",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/accessibility",
+            "noFollow": false,
+            "tagTitle": "Acessibilidade",
+            "text": "Acessibilidade"
+          }
+        },
+        {
+          "id": "footerItem-contact",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/contact",
+            "noFollow": false,
+            "tagTitle": "Fale Conosco",
+            "text": "Fale Conosco"
+          }
+        },
+        {
+          "id": "footerItem-pickup",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/pickup",
+            "noFollow": false,
+            "tagTitle": "Retirada na Loja",
+            "text": "Retirada na Loja"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+:local(:root) {
+  /* Colors */
+  --black-dark: #1F1F1F;              /* texto preto intenso */
+  --fresh-blue: #00502F;              /* verde primário Leo */
+  --fresh-blue-dark: #00482A;         /* tom mais escuro para hover */
+  --fresh-blue-lightest: #F1F7F4;     /* fundo claro esverdeado */
+  --fresh-orange: #FFED00;            /* amarelo de destaque */
+  --fresh-darkest: #00301C;           /* verde bem escuro */
+  --green-light: #9FFC04;             /* verde secundário claro */
+  --green-dark: #72B502;              /* verde secundário forte */
+  --black-medium: #7F7F7F;            /* cinza médio para textos */
+  --b2b-header-blue-medium: #FFFFFF;  /* texto branco no header */
+  --blue-medium: #006038;             /* verde intermediário */
+  --b2b-blue-darkest: #003821;        /* verde profundo */
+  --lines-dark: #C8C8C8;              /* bordas/esqueleto */
+  --lines-darker: #B6B6B6;
+  --lines-light: #EDEDED;
+  --serious-blue-dark: var(--fresh-blue);
+  --serious-black: #333333;           /* texto padrão */
+  --serious-orange: #F8B100;          /* laranja/âmbar para CTAs */
+  --base: #FFFFFF;                    /* fundo */
+  --near-white: #F9F9FA;              /* quase branco */
+  --pamplona: #00502F;                /* cor de marca (primária) */
+  
+  /* Transitions */
+  --default-transition: all 0.3s ease;
+}
+
