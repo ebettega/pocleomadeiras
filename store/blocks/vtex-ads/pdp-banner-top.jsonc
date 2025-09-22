@@ -2,7 +2,7 @@
   /**
    * Ads banner
    */
-  "vtex-ads-banner#pdp-top": {
+  "pamplonase.vtex-ads:vtex-ads-banner#pdp-top": {
     "title": "VTEX Ads - Product banner",
     "props": {
       "placementName": "pdp-top_banner",
@@ -15,7 +15,7 @@
    * Responsive layout
    */
   "flex-layout.row#vtex-ads-pdp-top-banner.desktop": {
-    "children": ["vtex-ads-banner#pdp-top"],
+    "children": ["pamplonase.vtex-ads:vtex-ads-banner#pdp-top"],
     "props": {
       "paddingBottom": 4
     }
@@ -26,7 +26,7 @@
   },
 
   "flex-layout.row#vtex-ads-pdp-top-banner.mobile": {
-    "children": ["vtex-ads-banner#pdp-top"],
+    "children": ["pamplonase.vtex-ads:vtex-ads-banner#pdp-top"],
     "props": {
       "blockClass": "vtexads-banner-top-container",
       "paddingBottom": 3
